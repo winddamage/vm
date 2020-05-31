@@ -1,6 +1,9 @@
 <template>
   <div class="layout">
-    <div class="my-header">header~</div>
+    <div class="my-header">
+      <router-link to="/home">Home | </router-link>
+      <router-link to="/about">About</router-link>
+    </div>
     <div class="my-main">
       <router-view></router-view>
     </div>
